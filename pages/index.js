@@ -4,7 +4,7 @@ import Router from "next/router";
 export default () => {
   return (
     <div>
-      <Link href="/a?id=1" as="/a/1">
+      {/* <Link href="/a?id=1" as="/a/1">
         <Button>123</Button>
       </Link>
       <Button
@@ -14,15 +14,16 @@ export default () => {
             {
               pathname: "/a",
               query: {
-                id: 2
-              }
+                id: 2,
+              },
             },
             "/a/2"
           );
         }}
       >
         go a{" "}
-      </Button>
+      </Button> */}
+      <span>index 哈哈哈</span>
     </div>
   );
 };
